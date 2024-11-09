@@ -1,3 +1,8 @@
+
+import requests
+import json
+import numpy as np
+
 def model(words, strikes, isOneAway, correctGroups, previousGuesses, error):
 	"""
 	_______________________________________________________
